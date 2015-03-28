@@ -21,10 +21,6 @@ namespace CodeKnight.Core
 
         public static IEnumerable<Enum> GetFlags( this Enum input, bool withZeroValue = false )
         {
-            //foreach ( Enum value in Enum.GetValues( input.GetType() ) )
-            //    if ( input.HasFlag( value ) )
-            //        yield return value;
-
             var result = new List<Enum>();
 
             foreach ( Enum value in Enum.GetValues( input.GetType() ) )

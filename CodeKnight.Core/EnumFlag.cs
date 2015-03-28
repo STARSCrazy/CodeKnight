@@ -69,19 +69,6 @@ namespace CodeKnight.Core
                 return ( mask & (int)( (object)type ) ) > 0;
         }
 
-        //public void AddNamedFilter( UseCaseSpecification spec, string filterName, string parameterName )
-        //{
-        //    var parameterValue = new List<string>();
-
-        //    foreach ( var value in Enum.GetValues( typeof( T ) ) )
-        //    {
-        //        if ( Test( (T)value ) )
-        //            parameterValue.Add( ( value ).ToString() );
-        //    }
-
-        //    spec.AddNamedFilter( filterName, parameterName, parameterValue );
-        //}
-
         public EnumFlag<T> SetFlagSum( int flagSum )
         {
             mask = flagSum;

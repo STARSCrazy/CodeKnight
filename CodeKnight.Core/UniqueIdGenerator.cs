@@ -3,7 +3,7 @@ using System.Security.Cryptography;
 
 namespace CodeKnight.Core
 {
-	//Form: John Opincar
+	//From: John Opincar
 	//http://jopinblog.wordpress.com/2009/02/04/a-shorter-friendlier-guiduuid-in-net/
 
 	public class UniqueIdGenerator
